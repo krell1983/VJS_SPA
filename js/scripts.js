@@ -14,7 +14,7 @@ xhr.send();
         
 }
 
-function Menu_Ajax (CSS_selector,Link,Content_Class){
+function Menu_Controll (CSS_selector,Link,Content_Class){
 
         var Menu_Links = document.querySelectorAll(CSS_selector);
         //console.log('CSS_selector:"'+CSS_selector+'"');
@@ -24,11 +24,11 @@ function Menu_Ajax (CSS_selector,Link,Content_Class){
 
             Menu_Links[Menu_Links_Item].addEventListener("click", function(event){
             event.preventDefault();
-            var Data = this.getAttribute("href");
+            var Ajax_Link = this.getAttribute("href");
             //console.log('Data['+Data+']');
-            Data = Data.replace(".php",Link+".php");
+            Ajax_Link = Ajax_Link.replace(".php",Link+".php");
             //console.log('Data New['+Data+']');        
-            AJAX(Data,Content_Class);
+            AJAX(Ajax_Link,Content_Class);
             });
                      
         }
@@ -38,4 +38,4 @@ function Menu_Ajax (CSS_selector,Link,Content_Class){
 // Var 1: CSS Selector.
 // Var 2: Add string to link AJAX file.
 // Var 3: HTML CSS Class to put AJAX call content.
-Menu_Ajax (".Main_Menu a","-ajax",".Page");
+Menu_Controll (".Main_Menu a","-ajax",".Page");

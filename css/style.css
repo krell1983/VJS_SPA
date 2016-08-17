@@ -1,7 +1,7 @@
 .Web_Page{
     font-family: verdana;
     font-size:14px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3); 
     background-color: white;
@@ -12,23 +12,37 @@ body{
     margin: 0px;
 }
 
-.Main_Menu a,.Mobile_Menu a{
+.Main_Menu a, .Page a{
     text-decoration: none;
     padding: 10px;
     display: inline-block;
-    color:#666;
-    border:solid 1px #999;
+    color: #fff;
     border-radius: 2px;
     width: 120px;
+    background-color: black;
+    font-weight: bold;
+    background: #1e5799;
+    background: linear-gradient(5deg, #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    transition: 0.2s ease opacity;
 }
 
-.Main_Menu,.Mobile_Menu{
+.Main_Menu a:hover,.Mobile_Menu a:hover{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+.Main_Menu{
     padding: 10px;
     text-align: center;
 }
 
 .Menu_Block{
-    border:solid 1px #999;
+    border-bottom: solid 1px #3e78b4;
 }
 
 .Page{
@@ -40,19 +54,16 @@ body{
     margin: 0px 0px 30px;
 }
 
-.Mobile_Menu{
-    display: none;
-}
 
 .Code_Box{
     background-color: #ebeff1;
     padding: 10px;
     line-height: 1.75;
-    border: solid 1px black;
+    border: solid 1px #b6d1e4;
 }
 
-.Code_Box p{
-margin: 0px 0px 0px 20px;  
+.Code_Box .Tab{
+margin: 0px 0px 0px 30px;  
 }
 
 .Blue{
@@ -70,3 +81,22 @@ margin: 0px 0px 0px 20px;
     font-style: italic;
 }
 
+.Green{
+    color: #2ca92c;
+    font-weight: bold;
+}
+
+
+h1{
+    color: #3e78b4;
+    font-size: 25px;
+    margin: 30px 0px 10px;
+    border-left:solid 10px #3e78b4;
+    padding: 0px 0px 0px 5px;
+}
+
+h2{
+    color: #3e78b4;
+    font-size: 16px;
+    margin: 20px 0px 5px;
+}
