@@ -14,6 +14,6 @@
     In other section of web page i will go into more details about: <b>AJAX</b> - VJS XMLHttpRequest, VJS <b>Selectors</b>, <b>HTML DOM</b> - operations.
 </p>
 
-<p>
+<p class="center"><br>
     <a href="https://github.com/krell1983/VJS_SPA" target="_blank">  GIT HUB LINK </a>
 </p>

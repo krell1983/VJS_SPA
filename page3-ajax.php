@@ -3,22 +3,22 @@
 <h2>Single element selector</h2>
 <div class="Code_Box">
 
-document.querySelector("<span class="Orange">.html_class_name</span>").style.backgroundColor = "red"; // You can use CSS selectors here.   
+document.querySelector("<span class="Orange">.html_class_name</span>").style.backgroundColor = "red";<span class="Gray"> // You can use CSS selectors here. </span>  
     
 </div>
 
-<h2>Selecting multiple elements is little bit harder. Example of selecting all elements in Menu:</h2>
+<h2>Selecting multiple elements</h2>
 <div class="Code_Box">
 
-var Menu_Links = document.querySelectorAll(CSS_selector);
-
-for(Menu_Links_Item = 0; Menu_Links_Item < Menu_Links.length; Menu_Links_Item++ ){
-
-Menu_Links[Menu_Links_Item].addEventListener("click", function(event){
-event.preventDefault();
-var Ajax_Link = this.getAttribute("href");
-Ajax_Link = Ajax_Link.replace(".php",Link+".php");
-AJAX(Ajax_Link,Content_Class);
-});
+    
+var <span class="Blue">Html_Items</span> = document.querySelectorAll("<span class="Orange">.html_class</span>"); <span class="Gray">// You can use CSS selectors here.
+</span><br><br>
+for (<span class="Green">Item</span> = 0; <span class="Green">Item</span> < <span class="Blue">Html_Items</span>.length; <span class="Green">Item</span>++) {
+<span class="Gray">// Will run cod for each html item.</span>
+<br>
+<div class="Tab">
+    <span class="Blue">Html_Items</span>[<span class="Green">Item</span>].style.backgroundColor = "red";<br>
+}<br>
+</div>
     
 </div>
