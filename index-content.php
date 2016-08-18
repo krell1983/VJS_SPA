@@ -7,12 +7,10 @@
 <h1>Basic Concept</h1>
 
 <p>
-    Web sites that works like <b>SPA</b> and is working like normal web page when <b>JS</b> is not available for <b>SOE bots</b>.Java Script  will take control over menu links and change them into AJAX.
+    Web sites that works like <b>SPA</b> and is working like normal web page when <b>JS</b> is not available. <br>
+    Java Script will take control over link in main menu and turn them into AJAX calls that will download only page content.
 </p>
 
-<p>
-    In other section of web page i will go into more details about: <b>AJAX</b> - VJS XMLHttpRequest, VJS <b>Selectors</b>, <b>HTML DOM</b> - operations.
-</p>
 
 <p class="center"><br>
     <a href="https://github.com/krell1983/VJS_SPA" target="_blank">  GIT HUB LINK </a>
