@@ -11,7 +11,7 @@ and open the template in the editor.
    
         <meta name="viewport" content="width=device-width"/>   
         <style>
-        <?php include 'css/style.css';?>
+        <?php include 'css/style.min.css';?>
         </style>
 
     </head>
@@ -24,12 +24,16 @@ and open the template in the editor.
              <?php include 'index-content.php';?>
         </div>
           
+          <div class="Foot">
+              Krell1983 Vanilla JavaScript Single Page App.
+          </div>
+          
       </div>
        
-    
+
       
         
         
     </body>
-         <script src="js/scripts.js"></script>
+         <script src="js/scripts.min.js"></script>
 </html>

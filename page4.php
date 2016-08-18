@@ -8,30 +8,32 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Krell1983 Vanilla JavaScript SPA</title>
-   
+
         <meta name="viewport" content="width=device-width"/>   
         <style>
-        <?php include 'css/style.css';?>
+<?php include 'css/style.css'; ?>
         </style>
 
     </head>
     <body>
-        
-      <div class="Web_Page">  
-      <?php include 'menu.php';?>
-          
-              <div class="Page">
-              <?php include 'page1-content.php';?>
+
+        <div class="Web_Page">  
+            <?php include 'menu.php'; ?>
+
+            <div class="Page">
+                <?php include 'page4-content.php'; ?>
+            </div>
+
+            <div class="Foot">
+                Krell1983 Vanilla JavaScript Single Page App.
+            </div>
+
         </div>
-            
-    
-          
-      </div>
-       
-    
-      
-        
-        
+
+
+
+
+
     </body>
-         <script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </html>
