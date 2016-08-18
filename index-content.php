@@ -7,7 +7,7 @@
 <h1>Basic Concept</h1>
 
 <p>
-    Web sites that works like <b>SPA</b> and is workin like normal web page when <b>JS</b> is not available for <b>SOE</b>. When java script is tun on it will take control over links in main menu.
+    Web sites that works like <b>SPA</b> and is working like normal web page when <b>JS</b> is not available for <b>SOE bots</b>.Java Script  will take control over menu links and change them into AJAX.
 </p>
 
 <p>

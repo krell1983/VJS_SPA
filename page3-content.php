@@ -1,13 +1,13 @@
 <h1>Vanilla JavaScript selectors</h1>
 
-<h2>Single element selector</h2>
+<h2>Single HTML element selector</h2>
 <div class="Code_Box">
 
     document.querySelector("<span class="Orange">.html_class_name</span>").style.backgroundColor = "red";<span class="Gray"> // You can use CSS selectors here. </span>  
 
 </div>
 
-<h2>Selecting multiple elements</h2>
+<h2>Selecting multiple HTML elements</h2>
 <div class="Code_Box">
 
 
