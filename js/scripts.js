@@ -38,4 +38,4 @@ function Menu_Controll (CSS_selector,Link,Content_Class){
 // Var 1: CSS Selector.
 // Var 2: Add string to link AJAX file.
 // Var 3: HTML CSS Class to put AJAX call content.
-Menu_Controll (".Main_Menu a","-ajax",".Page");
+Menu_Controll (".Main_Menu a","-content",".Page");

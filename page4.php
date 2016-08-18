@@ -21,7 +21,7 @@ and open the template in the editor.
       <?php include 'menu.php';?>
           
               <div class="Page">
-              <?php include 'page4-ajax.php';?>
+              <?php include 'page1-content.php';?>
         </div>
             
     
