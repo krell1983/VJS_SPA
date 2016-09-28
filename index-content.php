@@ -11,7 +11,6 @@
     Java Script will take control over links in main menu and turn them into AJAX calls that will download page content only.
 </p>
 
-
 <p class="center"><br>
     <a href="https://github.com/krell1983/VJS_SPA" target="_blank"> GIT HUB LINK </a>
 </p>
