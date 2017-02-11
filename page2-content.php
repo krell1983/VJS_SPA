@@ -15,10 +15,7 @@
         </div><br>
         <span class="Green">xhr</span>.send();<br>
     </div>
-
-    }<br><br>
-
-
+    }
+    <br><br>
     <span class="Blue">AJAX</span>('<span class="Orange">link url</span>','<span class="Orange">html class name</span>');
-
 </div>
