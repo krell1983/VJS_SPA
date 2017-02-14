@@ -18,7 +18,7 @@
     <br>
     <div class="Tab">
         <span class="Blue">Html_Items</span>[<span class="Green">Item</span>].style.backgroundColor = "red";<br>
-        }<br>
     </div>
+    }
 
 </div>

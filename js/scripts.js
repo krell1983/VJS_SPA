@@ -1,5 +1,4 @@
 function AJAX(load_url, location) {
-//console.log("AJAX load_url:"+load_url+' location:'+location);
     var xhr = new XMLHttpRequest();
     xhr.open('GET', load_url, true);
     xhr.onreadystatechange = function () {
@@ -8,7 +7,6 @@ function AJAX(load_url, location) {
         if (this.status !== 200)
             return;
         document.querySelector(location).innerHTML = this.responseText;
-
     };
     xhr.send();
 }
@@ -19,14 +17,22 @@ function Menu_Controll(CSS_selector, Link, Content_Class) {
 
         Menu_Links[Menu_Links_Item].addEventListener("click", function (event) {
             event.preventDefault();
-            var Ajax_Link = this.getAttribute("href");;
-            Ajax_Link = Ajax_Link.replace(".php", Link + ".php");       
+            var Ajax_Link = this.getAttribute("href");
+            Ajax_Link = Ajax_Link.replace(".php", Link + ".php");
+            document.location.hash = Ajax_Link;
             AJAX(Ajax_Link, Content_Class);
         });
     }
 }
 
-// Var 1: CSS Selector.
-// Var 2: Add string to link AJAX file.
-// Var 3: HTML CSS Class to put AJAX call content.
-Menu_Controll(".Main_Menu a", "-content", ".Page");
+var Content_Class_Selector = ".Page";
+var Link_Sufix = "-content";
+var Menu_Links_Selector = ".Main_Menu a";
+var Current_Url = document.location.hash;
+
+Menu_Controll(Menu_Links_Selector, Link_Sufix, Content_Class_Selector);
+
+if (Current_Url !== '') {
+    Current_Url = Current_Url.slice(1);
+    AJAX(Current_Url, Content_Class_Selector);
+}

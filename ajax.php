@@ -16,7 +16,7 @@
             <?php include 'menu.php'; ?>
 
             <div class="Page">
-                <?php include 'page4-content.php'; ?>
+                <?php include 'ajax-content.php'; ?>
             </div>
 
             <div class="Foot">
