@@ -1,4 +1,5 @@
 function AJAX(load_url, location) {
+    document.querySelector(location).innerHTML = ''
     var xhr = new XMLHttpRequest();
     xhr.open('GET', load_url, true);
     xhr.onreadystatechange = function () {
